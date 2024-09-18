@@ -7,7 +7,9 @@
 /* Hier können Stiele für die ganze Webseite angegeben werden. */
 body {
     margin: 0;
-}
+    background-color: rgb(244, 200, 218);
+    color: rgb(120, 103, 90);
+
 
 /* Hier werden 2 Elemente nebeneinander gepackt.
    Mit `display: flex;` können wir angeben in welche Richtung alle Kinder von
