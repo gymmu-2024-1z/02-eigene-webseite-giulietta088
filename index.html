@@ -17,6 +17,26 @@
             Dies ist aber nur ein Struktur-Element. Damit der Header auch immer
             ganz oben angezeigt wird, braucht es noch das richtige CSS dafür. -->
             <h1>Webseite von Giulietta</h1>
+
+            <svg height="300" width="300">
+                <circle
+                    cx="150"
+                    cy="150"
+                    r="75"
+                    fill="yellow"
+                    stroke="black"
+                    stroke-with="100"
+                />
+                <circle cx="120" cy="130" r="15" fill="black" />
+                <circle cx="180" cy="130" r="15" fill="black" />
+                <clipPath id="clip-circle">
+                  <circle cx="170" cy="150" r="145" fill="black" />
+                </clipPath>
+                <rect x="50" y="100" width="300" height="200"
+                clip-path="url(#clip-circle)">
+                
+
+            </svg>
         </header>
 
         <nav>
@@ -28,6 +48,9 @@
             <ul>
                 <li>
                     <a href="./pages/hobbies.html">Meine Hobbies</a>
+                </li>
+                <li>
+                    <a href="./pages/national.html">Meine Nationalität</a>
                 </li>
             </ul>
         </nav>
@@ -76,7 +99,7 @@
                         Text der dazu passen könnte.
                     </div>
                     <div class="image">
-                        <img src="/img/mountains.png" alt="" />
+                        <img src="/img/tiger.jpeg" alt="" />
                     </div>
                 </div>
             </section>
